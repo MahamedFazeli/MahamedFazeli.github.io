@@ -40,6 +40,10 @@
             transform: translateY(-2px);
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
+        #text{
+            font-weight: bold;
+            font-size: x-large;
+        }
         
     </style>
 </head>
@@ -88,7 +92,22 @@
         </div>
     </nav>
 
-    
+    <div class="container-fluid text-center py-2">
+        <div class="header1 pb-5"><h1>Appointment Confirmed</h1></div>
+        <div class="header2 pb-5"><h2>You'll receive a confirmation email shortly</h2></div>
+        <div class="header3 pb-5"><h3>Below you will find the information of your appointment</h3></div>
+        <div class="container text-center">
+            <div class="row pb-5 mb-4 mt-3 pt-3">
+              <div class="col" id="text">Location:<br>730 Bronson Ave<br>Ottawa, ON<br>K1V 5J7</div>
+              <div class="col" id="text">Time:<br>4:00 PM - 4:45PM</div>
+              <div class="col" id="text">Date:<br>6/12/2024</div>
+              <div class="col" id="text">Barber:<br>Finnick</div>
+              <div class="col" id="text">Service:<br>KING TREATMENT</div>
+            </div>
+        <div class="confirm justify-content-center">
+            <a class="btn btn-dark text-white" code style="text-decoration: none" href="index.html">Return to Home</a>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
